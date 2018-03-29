@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE questionnaire SYSTEM "Questionnaire.dtd">
+
+
+<!--
+心理幸福感：
+	sa Self-acceptance 自我接纳
+	pl Purpose in Life 生活目标
+	em Environmental mastery 环境控制
+	pg Personal growth 个人成长
+	pr Positive relations 与他人的积极关系
+	ai Autonomy items 自主性
+	
+	ss Society satisfactory 生活满意度
+	pp Positive 积极情绪
+	nn Negitive 消极情绪
+  oh Oxford Happiness 44-最后 幸福感
+
+	01-18	sa sa pl em sa			pr pl em em pl
+			pg pg pr pg ai			pr ai ai
+	19-23 	avg
+	24-44 	pn	pnpnn	nppnp	npnpp	npn 
+  
+  
+-->
+
+<questionnaire>
+  <description>
+    <identifier>PWB_Phone</identifier>
+    <caption>心理幸福感</caption>
+    <information><![CDATA[	  以下问卷涉及到您近期对生活的感受与看法，无好坏之分，请您仔细阅读每道题目，并根据自己的真实意见或感受，逐项回答您对下列每一语句的同意程度。]]>
+	</information>
+    <interfacetype>CompareToAverage</interfacetype>
+  </description>
+
+  <questions>
+  
+	<question qid="q01" >
+      <title>在很多方面，我的生活与我的理想很接近。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q02">
+      <title>我的生活状况非常好。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q03">
+      <title>我对自己的生活感到满意。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q04">
+      <title>到目前为止，生活中我已经得到了我想要的重要的东西。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+	
+	<question qid="q05">
+      <title>如果有来世，我几乎不会改变目前的生活方式。（共七个选项）</title>
+      <answer aid="a0" score="0">非常不同意</answer>
+      <answer aid="a1" score="1">不同意</answer>
+	  <answer aid="a2" score="2">有些不同意</answer>
+	  <answer aid="a3" score="3">不确定</answer>
+	  <answer aid="a4" score="4">有些同意</answer>
+	  <answer aid="a5" score="5">同意</answer>
+	  <answer aid="a6" score="6">非常同意</answer>
+    </question>
+    
+  </questions>
+  
+  <tags>
+	<tag name="sa" label="自我接纳"><![CDATA[低分组对自我感到十分不满意，对自己过去的生活感到失望，对自我身上的个性品质感到苦恼，希望能够改变自己的现状。高分组对自我持有积极的态度，承认并包容自己的优缺点，对自己过去的生活感到满意。]]></tag>
+	<tag name="pr" label="人际关系"><![CDATA[低分组与他人的关系并不亲密、融洽，很难做到关心、信任他人，在人际关系中时常有被孤立和挫败的感觉，不愿去承诺与他人建立起重要的纽带关系。高分组与他人能够建立令人满意的人际关系，温馨热烈而又充满着信任感，关心他人，时常会产生心灵相通的感觉，并能够在人际关系中体验到喜悦感和亲密感，了解如何在人际关系中互相迁就进而保持关系稳定。]]></tag>
+	<tag name="ai" label="独立自主"><![CDATA[低分组在乎他人对自身的评价和期望，做决断时常会依赖于他人的看法，个人言行方式常因社会压力而屈从于特定的标准。高分组独立果断，个人的言行方式不会因社会压力而做出改变，常会根据内心的个人标准来约束、评价自身。]]></tag>
+	<tag name="em" label="掌控外部环境"><![CDATA[低分组不擅于规划日常事务，无法有效改变或改进外部环境，对周围的机遇毫无觉察，对外部世界缺乏控制感。高分组在掌控外部环境时感到游刃有余，能有效统筹规划复杂的外部事物，会充分利用周围的机遇，擅于通过选择、营造合适的外部环境来满足个人的需求与价值观。]]></tag>
+	<tag name="pl" label="生活目标"><![CDATA[低分组生活的目标、志向明确，感觉当下和过去的生活充满意义，持有积极的信念来赋予、明确生活的目标和方向。高分组生活的目标、志向明确，感觉当下和过去的生活充满意义，持有积极的信念来赋予、明确生活的目标和方向。]]></tag>
+	<tag name="pg" label="个人成长"><![CDATA[低分组感觉到自身成长的停滞，无法体验到自己身上的成长变化，感到对生活不满和厌倦。高分组感觉到持续性的成长，将自我看作是能够不断成长发展的，对新鲜事物保持开放的态度，能够意识到自身的潜力，能够看到自己身上所发生的成长变化。]]></tag>
+  </tags>
+
+  <remarks>
+	<remark tag="sa" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="sa" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+    <remark tag="pr" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="pr" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+    <remark tag="ai" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="ai" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+    <remark tag="em" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="em" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+    <remark tag="pl" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="pl" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+    <remark tag="pg" minScore="min" maxScore="avg">您的得分低于平均水平，属于低分组。</remark>
+    <remark tag="pg" minScore="avg" maxScore="max">您的得分高于平均水平，属于高分组。</remark>
+  </remarks>
+
+</questionnaire>

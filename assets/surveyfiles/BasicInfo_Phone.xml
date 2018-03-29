@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE questionnaire SYSTEM "Questionnaire.dtd">
+
+<questionnaire>
+  <description>
+    <identifier>BasicInfo_Phone</identifier>
+    <caption>个人基本情况调查</caption>
+    <information><![CDATA[   欢迎您填写本问卷，本问卷用来标注您的基本信息，问卷所有内容我们都将严格保密，请您放心填写。]]>
+	</information>
+   
+  </description>
+  
+
+  <questions>
+	<question qid="sex">
+      <title>您的性别：</title>
+      <answer aid="m" score="0">男性</answer>
+      <answer aid="f" score="1">女性</answer>
+    </question>
+  
+    <question qid="nation">
+      <title>您的民族：</title>
+      <answer aid="h" score="0">汉族</answer>
+      <answer aid="o" score="1">其它少数民族</answer>
+    </question>
+
+	<question qid="age" type="text">
+		<title>您的年龄(请填写数字，例如25；请真实填写，此题目将作为甄别填写是否有效的信息)：</title>
+    </question>
+	
+
+    <question qid="edu">
+      <title>您的受教育程度：</title>
+      <answer aid="no" score="1">小学以下</answer>
+      <answer aid="pr" score="2">小学</answer>
+      <answer aid="md" score="3">初中</answer>
+      <answer aid="hi" score="4">高中</answer>
+      <answer aid="ug" score="5">大学本科</answer>
+	  <answer aid="ms" score="6">硕士研究生</answer>
+	  <answer aid="dr" score="7">博士研究生</answer>
+    </question>
+
+	<question qid="census">
+		<title>您的户口是：</title>
+		<answer aid="a" score="0">非农业户口</answer>
+		<answer aid="b" score="1">农业户口</answer>
+    </question>
+
+    <question qid="liv">
+      <title>家庭所在地：</title>
+      <answer aid="ci" score="1">城市</answer>
+      <answer aid="to" score="2">乡镇</answer>
+      <answer aid="vi" score="3">农村</answer>
+    </question>
+
+    <question qid="stu">
+      <title>是否为学生在读：</title>
+      <answer aid="y" score="0">是</answer>
+      <answer aid="n" score="1">否</answer>
+    </question>
+    
+    <question qid="single">
+      <title>是否是独生子女：</title>
+      <answer aid="y" score="0">是</answer>
+      <answer aid="n" score="1">否</answer>
+    </question>
+
+    <question qid="regT">
+      <title>使用智能手机的时间长度：</title>
+      <answer aid="l1" score="1">小于1个月</answer>
+      <answer aid="y1" score="2">1-3个月</answer>
+      <answer aid="y2" score="3">3-6个月</answer>
+      <answer aid="y3" score="4">6个月-1年</answer>
+	  <answer aid="y4" score="5">1-2年</answer>
+	  <answer aid="y5" score="6">2-3年</answer>
+	  <answer aid="y6" score="7">3-5年</answer>
+      <answer aid="g6" score="8">大于5年</answer>
+    </question>
+
+  </questions>
+
+
+  <remarks>
+    <remark minScore="min" maxScore="max">非常感谢您填写我们的问卷！</remark>
+  </remarks>
+
+</questionnaire>
